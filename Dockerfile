@@ -1,5 +1,7 @@
 FROM node:10.16.2-alpine
 
+ENV PORT 3000
+
 WORKDIR /app
 
 COPY package*.json ./
